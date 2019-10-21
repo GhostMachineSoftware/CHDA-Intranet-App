@@ -1,0 +1,477 @@
+/*   **************************************************
+     Site   	: CHDA Intranet
+     Page   	: CHDA CSS
+     Author 	: Jason Clark
+     Date   	: Feb 2019
+     Purpose	: Master CSS file for Custom Master page CHDA.master 
+    
+     Modified By: 
+     Date		: 
+     Notes		: 
+
+     ************************************************** */
+
+    /***** Brand Colours *****/
+    :root {
+        --PrimaryDark: #545487;
+        --PrimaryMid: #7676b8;
+        --PrimaryLight: #dbdcf4;
+        --SecondaryDark1: #4f7b39;
+        --SecondaryMid1: #9cc487;
+        --SecondaryLight1: #d9eccd;
+        --SecondaryDark2: #c95828;
+        --SecondaryMid2: #f9ad86;
+        --SecondaryLight2: #fae8d6;
+        --AccentDark1: #205794;
+        --AccentMid1: #6e96cf;
+        --AccentLight1: #e5eaf6;
+        --AccentDark2:#8a742e;
+        --AccentMid2:#ddcc68;
+        --AccentLight2:#f2e5b6;
+        --AccentDark3:#5f295f;
+        --AccentMid3:#cfaccc;
+        --AccentLight3:#f2ddec;
+        --TextColour: black;
+        --ForeColour: white;
+        --UsefulLinkBG: lightgrey;
+    } 
+        
+    header {
+        background-color: var(--PrimaryLight);
+    }
+    
+    #s4-ribbonrow {
+        color:var(--TextColour);
+        background-color: var(--PrimaryLight);
+    }
+        
+    .pageTitle h1 {
+        color:var(--PrimaryDark);
+    }
+    
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+        background-color: var(--PrimaryMid);
+    }
+      
+    .nav > li > a:hover,
+    .nav > li > a:focus {
+        color: var(--ForeColour);
+    }
+    
+    .nav-tabs > li > a {
+        color: var(--PrimaryDark);
+    }
+    
+        .nav-tabs > li > a:hover {
+            color: var(--PrimaryMid) !important;
+            border-bottom: 3px solid var(--PrimaryDark);
+            border-bottom: 3px solid var(--PrimaryMid);
+        }
+    
+        .nav-tabs > li.active > a,
+        .nav-tabs > li.active > a:hover,
+        .nav-tabs > li.active > a:focus {
+            color: var(--PrimaryMid);
+            border-bottom: 3px solid var(--PrimaryMid);
+        }
+            .nav-pills > li > a:hover, .nav-pills > li.active > a:hover {
+                color: var(--ForeColour) !important;
+                background-color: var(--PrimaryMid) !important;
+            }
+    
+    .nav-pills > li.active > a,
+    .nav-pills > li.active > a:focus {
+        color: var(--ForeColour) !important;
+        background-color: var(--PrimaryMid) !important;
+    }
+     
+    .ms-core-listMenu-horizontalBox {
+        color: var(--PrimaryDark);
+    }
+        .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+            color: var(--PrimaryDark);
+        }
+    
+        .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item:hover {
+            color: var(--ForeColour) !important;
+            background-color: var(--PrimaryMid) !important;
+            border: .5px solid var(--PrimaryDark);
+        }
+    
+        .ms-core-listMenu-horizontalBox li.selected a.selected {
+            color: var(--ForeColour) !important;
+            background-color: var(--PrimaryDark) !important;
+            border: .5px solid var(--PrimaryDark);
+        }
+    
+        .ms-core-listMenu-horizontalBox li.selected a.selected:hover {
+            color: var(--ForeColour) !important;
+            background-color: var(--PrimaryDark) !important;
+        }
+        
+    /***** Custom Bootstrap Nav menu *****/
+    #custom-bootstrap-menu ul a {
+        color: var(--PrimaryDark);
+    }
+        #custom-bootstrap-menu ul li a {
+            text-shadow: 0 0 0.5px 0 white;
+        } 
+
+        #custom-bootstrap-menu ul.dynamic {
+            border: .5px solid var(--PrimaryDark);
+            background-color: var(--PrimaryLight);
+        }
+            #custom-bootstrap-menu ul li a:hover,
+            #custom-bootstrap-menu ul li a:focus {
+                color: var(--ForeColour) !important;
+            }        
+
+            #custom-bootstrap-menu ul.dynamic .ms-core-listMenu-item {
+                color: var(--PrimaryDark);
+            }
+            #custom-bootstrap-menu ul.dynamic .ms-core-listMenu-item:hover {
+                background-color: var(--PrimaryMid);
+                color: var(--ForeColour) !important;
+            }
+    
+                #custom-bootstrap-menu ul li.selected:hover {
+                    background-color: var(--PrimaryMid);
+                    border-color: transparent !important;
+                }
+    
+        /***** Bootstrap Custom Mobile Menu *****/
+        #custom-bootstrap-menu .navbar-toggle {
+            border: 1px solid var(--PrimaryMid);
+            background-color: var(--PrimaryDark);
+            color: var(--PrimaryLight) !important;
+        }
+    
+        #custom-bootstrap-menu .in.navbar-collapse {
+            background-color: var(--PrimaryLight);
+            border: 1px solid var(--PrimaryDark);
+            box-shadow: 4px 4px var(--PrimaryMid);
+        }
+    
+        #custom-bootstrap-menu .navbar-toggle:hover,
+        #custom-bootstrap-menu .navbar-toggle:focus {
+            background-color: var(--PrimaryMid);
+        }
+    
+        #custom-bootstrap-menu .navbar-toggle .icon-bar {
+            background-color: var(--ForeColour);
+        }
+    
+        #custom-bootstrap-menu .navbar-toggle:hover .icon-bar,
+        #custom-bootstrap-menu .navbar-toggle:focus .icon-bar {
+            background-color: var(--PrimaryMid);
+        }
+    
+    /*******************************/
+    /****** Right Header Items *****/
+    /*******************************/    
+    .ms-srch-sb-border, .ms-srch-sb-borderFocused {
+        border: 1px solid var(--PrimaryLight) !important;
+    }
+    
+    .ms-srch-sb > .ms-srch-sb-searchLink {
+        background-color: var(--PrimaryLight);   
+    }
+        .ms-srch-sb > .ms-srch-sb-searchLink:hover {
+            background-color: var(--PrimaryMid);
+            color: var(--ForeColour) !important
+        }
+    
+    .welcomeText {
+        color: var(--PrimaryDark) !important;
+    }
+        .welcomeText a, .welcomeText h3 {
+            color: var(--PrimaryDark) !important;
+        }
+            .welcomeText a:hover {
+                background-color: var(--PrimaryMid) !important;
+                color: var(--ForeColour) !important;
+            }
+    
+    .siteHelp {
+        color: var(--PrimaryDark) !important;
+    }
+        .siteHelp > a {
+            color: var(--PrimaryDark) !important;
+        }
+        .siteHelp a:before {
+            color: var(--PrimaryDark); 
+        }
+        .siteHelp:hover {
+            color: var(--PrimaryMid) !important;
+        }
+    
+    .siteEmail {
+        color: var(--PrimaryDark);
+    }
+        .siteEmail:hover {
+            color: var(--PrimaryMid)
+        }
+    
+    
+    .siteTest {
+        color: var(--PrimaryDark);
+    }
+    
+    .siteActions {
+        color: var(--PrimaryDark) !important;
+    }
+    
+    .ms-siteactions-normal a:hover {
+        color: var(--ForeColour) !important;
+        background-color: var(--PrimaryLight) !important;
+    }
+    
+    .ms-siteactions-normal a:before {
+        background-color: var(--PrimaryLight) !important;
+        color: var(--TextColour) !important;
+    }
+    
+    .ms-siteactions-normal a:after {
+        color: var(--PrimaryDark) !important;
+    }
+    
+    .ms-siteactions-root .ms-core-menu-list li:after {
+        color: var(--ForeColour) !important
+    }
+    
+    .ms-siteactions-hover {
+        background-color: var(--PrimaryMid) !important;
+        color: var(--ForeColour) !important;
+    }
+
+    .ms-siteactions-imgspan > .ms-core-menu-buttonIcon {
+        color: transparent;
+    }
+
+    #suiteBarButtons li a:hover {
+        background-color: var(--PrimaryMid) !important;
+        color: var(--ForeColour) !important;
+    }
+            
+    .ms-core-menu-item.Selected, .ms-core-menu-item:hover {
+        color: var(--ForeColour) !important;
+        background-color: var(--PrimaryMid) !important;
+    }
+    
+    .ms-core-menu-item:after {
+        color: var(--ForeColour) !important;
+    }
+        
+    h1 {
+        color: var(--PrimaryDark) !important;
+    }
+    
+    h2 {
+        color: var(--PrimaryDark) !important;
+    }
+    
+    h3 {
+        color: var(--PrimaryDark) !important;
+    }
+    
+    h4 {
+        color: var(--PrimaryDark) !important;
+    }
+        h4 > a {
+            color: var(--PrimaryDark);
+        }
+    
+    h5 {
+        color: var(--PrimaryDark) !important;
+    }
+    
+    h6 {
+        color: var(--PrimaryDark) !important;
+    }
+    
+    .navbar-search ul > li > a {
+        color: var(--TextColour) !important;
+    }
+        
+    /*********************/
+    /***** Page Body *****/
+    /*********************/
+    .mainContainer {
+        scrollbar-face-color: var(--PrimaryMid);
+        scrollbar-arrow-color: var(--ForeColour);
+        scrollbar-darkshadow-color: var(--TextColour) !important;
+    }
+    
+        /* Webkit Browser Scrollbar */
+        .mainContainer::-webkit-scrollbar {
+            background-color: var(--ForeColour);
+        }
+    
+        /* Track */
+        .mainContainer::-webkit-scrollbar-track {
+            -webkit-box-shadow: var(--ForeColour); /*inset 0 0 6px rgba(0,0,0,0.8);*/
+            box-shadow: var(--ForeColour);
+        }
+    
+        /* Handle */
+        .mainContainer::-webkit-scrollbar-thumb {
+            background: var(--PrimaryMid);
+            -webkit-box-shadow: inset 0 0 6px var(--PrimaryDark);
+            box-shadow: inset 0 0 6px var(--PrimaryDark);
+        }
+        
+        .watermark p {
+            color: var(--PrimaryLight) !important
+        }
+    
+    .ti_wrapper {
+        background-color: var(--PrimaryMid);
+    }
+    
+    .carousel {border:1px solid var(--PrimaryLight);}
+    .carousel-control-prev, .carousel-control-next{background-color:var(--PrimaryLight);}
+    .carousel-control-prev:hover, .carousel-control-next:hover{background-color:var(--PrimaryMid)}
+ 
+    /**************************/
+    /****** Useful Links ******/
+    /**************************/
+    .linkContainer {
+        scrollbar-base-color: var(--ForeColour);
+        scrollbar-face-color: var(--ForeColour);
+        scrollbar-3dlight-color: var(--ForeColour);
+        scrollbar-highlight-color: var(--ForeColour);
+        scrollbar-track-color: var(--ForeColour);
+        scrollbar-arrow-color: var(--ForeColour);
+        scrollbar-shadow-color: var(--ForeColour) !important;
+    }
+        .linkContainer .list-group {
+            background-color: var(--UsefulLinkBG) !important;
+            border-bottom: 1px solid var(--PrimaryDark);
+        }
+        .linkContainer .list-group-item {
+            background-color: var(--PrimaryLight);
+            color: var(--PrimaryDark);
+        }
+            .linkContainer .list-group-item:hover {
+                background-color: var(--PrimaryMid) !important;
+                color: var(--ForeColour) !important;
+            }
+    
+            .linkContainer .list-group-item.active > .badge,
+            .nav-pills > .active > a > .badge {
+                color: var(--TextColour);
+                background-color: var(--PrimaryMid);
+            }
+    
+        .linkContainer a.list-group-item,
+        button.list-group-item {
+            color: var(--TextColour);
+        }
+    
+            .linkContainer a.list-group-item:hover,
+            button.list-group-item:hover,
+            .linkContainer a.list-group-item:focus,
+            button.list-group-item:focus {
+                color: var(--ForeColour);
+                background-color: var(--PrimaryMid) !important;
+            }
+        
+    .card {
+        background-color: transparent;
+        color: var(--PrimaryDark) !important;
+    }
+        .card > .list-group,
+        .card > .collapse > .list-group {
+            background-color: var(--PrimaryLight) !important;
+        }    
+        .card > .list-group, .card > .collapse > .list-group {
+            background-color: var(--PrimaryLight) !important;
+            color: var(--PrimaryDark) !important;
+        }
+    
+    .card-header {
+        border-bottom: 1px solid var(--PrimaryDark) !important;
+        background-color: var(--PrimaryLight) !important;
+        color:var(--PrimaryDark);
+    }
+        .card-header > .dropdown .dropdown-toggle {
+            color:var(--PrimaryDark);
+        }
+        .card-header:hover, .accordion-toggle:hover {
+            background-color: var(--PrimaryMid) !important;
+            color: var(--ForeColour) !important;
+        }
+    
+    .accordion-toggle:after {
+        color: var(--PrimaryDark) !important;
+    }
+    
+    .accordion-toggle.collapsed:after {
+        color: var(--PrimaryDark) !important;
+    }
+        
+    .sidebar ul {
+        border: 1px solid var(--PrimaryLight);
+    }
+    
+    .btn-primary {
+        color: var(--ForeColour) !important;
+    }
+        
+    /***********************************/
+    /***** Web Part Properties Box *****/
+    /***********************************/    
+    .ms-ToolPaneOuter {
+        border: 5px solid var(--PrimaryDark) !important;
+    }
+    
+    .ms-ToolPaneBody {
+        color: var(--TextColour);
+        scrollbar-face-color: var(--PrimaryLight);
+        scrollbar-3dlight-color: var(--ForeColour);
+        scrollbar-highlight-color: var(--PrimaryMid);
+        scrollbar-track-color: var(--PrimaryLight);
+        scrollbar-arrow-color: var(--PrimaryDark);
+        scrollbar-shadow-color: var(--PrimaryMid) !important;
+        scrollbar-darkshadow-color: var(--TextColour) !important;
+    }
+    
+    /*********************/
+    /***** Left Menu *****/
+    /*********************/    
+    .modal-backdrop {
+        background-color: var(--PrimaryLight);
+    }
+    
+    .tooltip-inner {
+        background-color: var(--PrimaryMid);
+    }
+    
+    .sidebar ul {
+        border: 1px solid var(--PrimaryLight);
+    }
+
+    /*******************************/
+    /***** Service Page Styles *****/
+    /*******************************/  
+    .btn-primary {
+        color: var(--ForeColour) !important;
+    }
+
+    /**************************/
+    /****** Mobile Screen *****/
+    /**************************/
+    @media (max-width: 1200px) {  
+        .navbar-collapse {
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 var(--TextColour);
+        }         
+        .usefulLinksSection {
+            background-color: var(--ForeColour);
+        }
+    
+        .pageRightContainer {
+            background-color: var(--ForeColour);
+            border: 1px solid var(--PrimaryDark);
+        }
+    }   

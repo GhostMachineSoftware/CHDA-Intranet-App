@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css" Url="Content/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\jquery-ui.min.css" Url="Content/jquery-ui.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\all.min.css" Url="Content/all.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\brands.min.css" Url="Content/brands.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\fa-all.css" Url="Content/fa-all.css" ReplaceContent="TRUE" />
+    <File Path="Content\fa-solid.css" Url="Content/fa-solid.css" ReplaceContent="TRUE" />
+    <File Path="Content\maxuksites.css" Url="Content/maxuksites.css" ReplaceContent="TRUE" />
+    <File Path="Content\chda.css" Url="Content/chda.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

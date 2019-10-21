@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint Add-in Feature" Id="141cf909-792f-4a46-be39-5ddf18f74b7f" Scope="Web" Title="CHDA Intranet Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Home.aspx" />
+    <ElementFile Location="Pages\about.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery.isotope.js" />
+    <ElementFile Location="Scripts\jquery.min.js" />
+    <ElementFile Location="Scripts\jquery.SPServices.min.js" />
+    <ElementFile Location="Scripts\richtext.min.css" />
+    <ElementFile Location="Scripts\angular.min.js" />
+    <ElementFile Location="Scripts\angular-animate.min.js" />
+    <ElementFile Location="Scripts\angular-loader.min.js" />
+    <ElementFile Location="Scripts\angular-route.min.js" />
+    <ElementFile Location="Scripts\jquery-ui.min.js" />
+    <ElementFile Location="Scripts\bootstrap.min.js" />
+    <ElementFile Location="Scripts\bootstrap-toggle.min.js" />
+    <ElementFile Location="Scripts\all.min.js" />
+    <ElementFile Location="Scripts\brands.min.js" />
+    <ElementFile Location="Scripts\fontawesome.min.js" />
+    <ElementFile Location="Scripts\regular.min.js" />
+    <ElementFile Location="Scripts\solid.min.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\bootstrap.min.css" />
+    <ElementFile Location="Content\jquery-ui.min.css" />
+    <ElementFile Location="Content\all.min.css" />
+    <ElementFile Location="Content\brands.min.css" />
+    <ElementFile Location="Content\fa-all.css" />
+    <ElementFile Location="Content\fa-solid.css" />
+    <ElementFile Location="Content\maxuksites.css" />
+    <ElementFile Location="Content\chda.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="Fonts\AvenirLTStd-Black.otf" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

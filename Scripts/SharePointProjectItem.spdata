@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.isotope.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.SPServices.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="richtext.min.css" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="angular.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="angular-animate.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="angular-loader.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="angular-route.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-ui.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap-toggle.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="all.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="brands.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="fontawesome.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="regular.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="solid.min.js" Target="Scripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

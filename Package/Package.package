@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="12d2fd1c-0491-40fe-a9a0-52c654da3d0e" 
+        solutionId="12d2fd1c-0491-40fe-a9a0-52c654da3d0e" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="CHDA_Intranet"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="141cf909-792f-4a46-be39-5ddf18f74b7f" />
+  </features>
+</package>

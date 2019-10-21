@@ -1,0 +1,4 @@
+C:\Users\jason\source\repos\add-in\CHDA Intranet\bin\Debug\CHDA Intranet.pdb
+C:\Users\jason\source\repos\add-in\CHDA Intranet\obj\Debug\CHDA Intranet.csprojAssemblyReference.cache
+C:\Users\jason\source\repos\add-in\CHDA Intranet\obj\Debug\CHDA Intranet.dll
+C:\Users\jason\source\repos\add-in\CHDA Intranet\obj\Debug\CHDA Intranet.pdb

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.isotope.js" Url="Scripts/jquery.isotope.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.min.js" Url="Scripts/jquery.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.SPServices.min.js" Url="Scripts/jquery.SPServices.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\richtext.min.css" Url="Scripts/richtext.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular.min.js" Url="Scripts/angular.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-animate.min.js" Url="Scripts/angular-animate.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-loader.min.js" Url="Scripts/angular-loader.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-route.min.js" Url="Scripts/angular-route.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-ui.min.js" Url="Scripts/jquery-ui.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap-toggle.min.js" Url="Scripts/bootstrap-toggle.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\all.min.js" Url="Scripts/all.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\brands.min.js" Url="Scripts/brands.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\fontawesome.min.js" Url="Scripts/fontawesome.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\regular.min.js" Url="Scripts/regular.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\solid.min.js" Url="Scripts/solid.min.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
